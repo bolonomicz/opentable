@@ -1,7 +1,9 @@
 Opentable::Application.routes.draw do
+ 
+
   root :to => 'home#index'
 
-  resources :owner
+  resources :owners
 
   #get "home/index"
 
